@@ -3,7 +3,7 @@
 
 :root {
     /* Colours */
-    --blue: #3eb0ef;
+    --blue: #3e64ff;
     --green: #a4d037;
     --purple: #ad26b4;
     --yellow: #fecd35;
@@ -15,6 +15,7 @@
     --pink: #fa3a57;
     --brown: #a3821a;
     --darkmode: color(var(--darkgrey) l(+2%));
+    --personal: #3e64ff;
 }
 
 /* Reset

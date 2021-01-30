@@ -2,6 +2,9 @@ routes:
   /signup/: members/signup
   /signin/: members/signin
   /account/: members/account
+  /sitemap/:
+    template: sitemap
+    content_type: text/xml
 
 collections:
   /:
@@ -11,3 +14,4 @@ collections:
 taxonomies:
   tag: /tag/{slug}/
   author: /author/{slug}/
+ 

@@ -108,6 +108,10 @@ into the {body} of the default.hbs template --}}
                 <section class="post-full-content">
                     <div class="post-content">
                         {{content}}
+                        {{#if @member}}
+                        {{else}}
+                        {{> subscribe-form}}
+                        {{/if}}
                     </div>
                 </section>
 
